@@ -1,0 +1,54 @@
+.cuerpo
+{
+    width: 100px;
+    height: 200px;
+    position: relative;
+}
+
+.tapa
+{
+    width: 100px;
+    height: 50px;
+    background-color: #a746e7;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+}
+
+.fondo
+{
+    width: 100px;
+    height: 50px;
+    background-color: #823eb0;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+}
+
+.prosses
+{
+    width: 100px;
+    background-color: #9F4BD6;
+    height: 100px;
+    position: absolute;
+    top: 75px;
+}
+
+.prossesHead
+{
+    background-color: #823eb0;
+    width: 100px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+}
+.background
+{
+    background-color: #BB58FC;
+    width: 100px;
+    position: absolute;
+    height: 150px;
+    top: 25px;
+}
