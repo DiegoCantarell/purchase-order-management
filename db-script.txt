@@ -1,0 +1,25 @@
+//This code is to create the db an the tables for the calendad-website
+
+Create DATABASE semanas 
+create table programa(
+
+    id int primary key not null AUTO_INCREMENT,
+    comprador varchar(50),
+    orden varchar(50),
+    fecha date,
+    proveedor varchar(50),
+    producto varchar(50),
+    cantidad decimal(16,4),
+    comentario text
+);
+
+create table usuario(                                                                                                                                                                                                                    
+    id int primary key not null,
+    usuario varchar(50),
+    nombre varchar(50),
+    pass varchar(50),
+    roll varchar(50),
+    foto varchar(50)
+);
+
+
